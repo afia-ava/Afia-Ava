@@ -1,10 +1,7 @@
-- 👋 Hi, I’m Afia 
-- 😄 Pronouns: she/her/hers
-- 🌱 I love to code and build
-- 💞️ I’m looking to collaborate on tech and social projects
-- 📫 How to reach me - drop a text at LinkedIn or email
-- 🧳 I wish to visit every continent and collect *actual* bugs
-<!---
-Afia-Ava/Afia-Ava is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Hey, thanks for stopping by!
+ 
+I'm Afia and I like to make things.
+I'm interested in a bunch of things including hardware, AI, 3D modeling, laser cutting, filming, crafting, etc.
+ 
+Find me at [afiaava.com](https://www.afiaava.com)
+
