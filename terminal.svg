@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" width="700" height="450">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="700" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#4DB6AC"/>
+      <stop offset="35%"  stop-color="#00897B"/>
+      <stop offset="68%"  stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#002B25"/>
+    </linearGradient>
+    <clipPath id="mc">
+      <circle cx="575" cy="190" r="67"/>
+    </clipPath>
+    <!-- mountain clip paths -->
+    <clipPath id="clL">  <polygon points="155,95 312,340 24,340"/></clipPath>
+    <clipPath id="clM1"> <polygon points="288,148 418,340 168,340"/></clipPath>
+    <clipPath id="clM2"> <polygon points="388,175 468,340 312,340"/></clipPath>
+    <clipPath id="clS1"> <polygon points="448,210 496,340 403,340"/></clipPath>
+    <clipPath id="clS2"> <polygon points="470,228 510,340 438,340"/></clipPath>
+    <style>
+      @keyframes tw  { 0%,100%{fill-opacity:.1}  50%{fill-opacity:.9} }
+      @keyframes ma  { 0%,100%{stroke:#003530} 50%{stroke:#4DB6AC} }
+      @keyframes mb  { 0%,100%{stroke:#002825} 35%{stroke:#26A69A} 70%{stroke:#00897B} 100%{stroke:#002825} }
+      @keyframes mc  { 0%,100%{stroke:#003530} 50%{stroke:#80CBC4} }
+      @keyframes md  { 0%{stroke:#003530} 30%{stroke:#26A69A} 65%{stroke:#4DB6AC} 100%{stroke:#003530} }
+      @keyframes me  { 0%,100%{stroke:#002825} 50%{stroke:#2A9B8F} }
+      @keyframes mcA { 0%,100%{stroke:#1A6860;opacity:.5} 50%{stroke:#80CBC4;opacity:1} }
+      @keyframes mt1 { 0%,100%{fill:#004D40} 40%{fill:#26A69A} 65%{fill:#00897B} }
+      @keyframes mt2 { 0%{fill:#003535} 30%{fill:#00897B} 62%{fill:#4DB6AC} 100%{fill:#003535} }
+      @keyframes mt3 { 0%,100%{fill:#003030} 50%{fill:#26A69A} }
+      @keyframes gr  { 0%,100%{fill:#002522} 50%{fill:#003535} }
+      @keyframes bA  { 0%,100%{fill:#1A5A54;fill-opacity:.3} 50%{fill:#80CBC4;fill-opacity:1} }
+
+      .s1{fill:#80CBC4;animation:tw 2.3s infinite}
+      .s2{fill:#B2DFDB;animation:tw 3.7s .9s infinite}
+      .s3{fill:#E0F7FA;animation:tw 2.0s 1.6s infinite}
+      .m1{stroke:#003530;stroke-linecap:butt;animation:ma 5.3s 0.0s ease-in-out infinite}
+      .m2{stroke:#002825;stroke-linecap:butt;animation:mb 6.7s 0.4s ease-in-out infinite}
+      .m3{stroke:#003530;stroke-linecap:butt;animation:mc 4.9s 1.2s ease-in-out infinite}
+      .m4{stroke:#003530;stroke-linecap:butt;animation:md 7.1s 2.1s ease-in-out infinite}
+      .m5{stroke:#002825;stroke-linecap:butt;animation:me 5.8s 0.8s ease-in-out infinite}
+      .mcirc{fill:none;stroke:#1A6860;animation:mcA 8s ease-in-out infinite}
+      .mnL {fill:#004D40;animation:mt1 7.3s 0.0s ease-in-out infinite}
+      .mnM1{fill:#003D35;animation:mt2 6.1s 1.2s ease-in-out infinite}
+      .mnM2{fill:#003A32;animation:mt1 8.1s 0.7s ease-in-out infinite}
+      .mnS1{fill:#003030;animation:mt3 5.7s 2.3s ease-in-out infinite}
+      .mnS2{fill:#002D2A;animation:mt2 6.8s 3.5s ease-in-out infinite}
+      .gr  {fill:#002522;animation:gr  9.0s 0.5s ease-in-out infinite}
+      .bi {fill:#1A5A54;animation:bA 5s ease-in-out infinite}
+      .bi2{fill:#1A5A54;animation:bA 5s 2.5s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <rect width="700" height="450" rx="16" fill="url(#grad)"/>
+  <rect x="16" y="16" width="668" height="418" rx="10" fill="#050B0A"/>
+  <circle cx="40" cy="40" r="6" fill="#FF5F57"/>
+  <circle cx="58" cy="40" r="6" fill="#FEBC2E"/>
+  <circle cx="76" cy="40" r="6" fill="#28C840"/>
+  <text x="350" y="46" font-family="'Courier New', Courier, monospace" font-size="13" fill="#4DB6AC" text-anchor="middle">@afia-ava</text>
+  <line x1="16" y1="58" x2="684" y2="58" stroke="#004D40" stroke-width="1"/>
+
+  <!-- stars -->
+  <g font-family="'Courier New', Courier, monospace" font-size="9">
+    <text class="s1" x="52"  y="80">*</text>
+    <text class="s2" x="185" y="76">*</text>
+    <text class="s3" x="330" y="82">*</text>
+    <text class="s1" x="105" y="100">*</text>
+    <text class="s2" x="258" y="96">*</text>
+    <text class="s3" x="48"  y="118">*</text>
+    <text class="s1" x="410" y="108">*</text>
+  </g>
+
+  <!-- ── tiny far-right mountain ─────────────────────────────── -->
+  <polygon points="470,228 510,340 438,340" fill="#020A09"/>
+  <g clip-path="url(#clS2)" font-family="'Courier New', Courier, monospace" font-size="9">
+    <text class="mnS2" x="438" y="239">. . . . . . . .</text>
+    <text class="mnS2" x="438" y="250">. . . . . . . .</text>
+    <text class="mnS2" x="438" y="261">. . . . . . . .</text>
+    <text class="mnS2" x="438" y="272">. . . . . . . .</text>
+    <text class="mnS2" x="438" y="283">. . . . . . . .</text>
+    <text class="mnS2" x="438" y="294">. . . . . . . .</text>
+    <text class="mnS2" x="438" y="305">. . . . . . . .</text>
+    <text class="mnS2" x="438" y="316">. . . . . . . .</text>
+    <text class="mnS2" x="438" y="327">. . . . . . . .</text>
+    <text class="mnS2" x="438" y="338">. . . . . . . .</text>
+  </g>
+
+  <!-- ── small right mountain ────────────────────────────────── -->
+  <polygon points="448,210 496,340 403,340" fill="#020A09"/>
+  <g clip-path="url(#clS1)" font-family="'Courier New', Courier, monospace" font-size="9">
+    <text class="mnS1" x="403" y="221">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="232">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="243">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="254">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="265">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="276">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="287">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="298">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="309">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="320">. . . . . . . . . .</text>
+    <text class="mnS1" x="403" y="331">. . . . . . . . . .</text>
+  </g>
+
+  <!-- ── medium mountain ─────────────────────────────────────── -->
+  <polygon points="388,175 468,340 312,340" fill="#020A09"/>
+  <g clip-path="url(#clM2)" font-family="'Courier New', Courier, monospace" font-size="9">
+    <text class="mnM2" x="312" y="186">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="197">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="208">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="219">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="230">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="241">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="252">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="263">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="274">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="285">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="296">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="307">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="318">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="329">. . . . . . . . . . . . . . . .</text>
+    <text class="mnM2" x="312" y="340">. . . . . . . . . . . . . . . .</text>
+  </g>
+
+  <!-- ── medium-large mountain ──────────────────────────────── -->
+  <polygon points="288,148 418,340 168,340" fill="#020A09"/>
+  <g clip-path="url(#clM1)" font-family="'Courier New', Courier, monospace" font-size="9">
+    <text class="mnM1" x="168" y="159">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="170">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="181">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="192">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="203">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="214">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="225">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="236">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="247">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="258">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="269">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="280">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="291">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="302">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="313">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="324">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnM1" x="168" y="335">. . . . . . . . . . . . . . . . . . . . . . . . .</text>
+  </g>
+
+  <!-- ── large dominant left mountain ──────────────────────── -->
+  <polygon points="155,95 312,340 24,340" fill="#020A09"/>
+  <g clip-path="url(#clL)" font-family="'Courier New', Courier, monospace" font-size="9">
+    <text class="mnL" x="24" y="106">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="117">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="128">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="139">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="150">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="161">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="172">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="183">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="194">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="205">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="216">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="227">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="238">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="249">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="260">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="271">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="282">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="293">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="304">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="315">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="326">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+    <text class="mnL" x="24" y="337">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</text>
+  </g>
+
+  <!-- ground -->
+  <rect x="24" y="340" width="652" height="20" class="gr"/>
+
+  <!-- birds — in front of mountains -->
+  <g font-family="'Courier New', Courier, monospace" font-size="9">
+    <text class="bi"  x="325" y="150">v</text>
+    <text class="bi2" x="344" y="142">v</text>
+  </g>
+
+  <!-- moon -->
+  <circle cx="575" cy="190" r="67" fill="#050B0A"/>
+  <g clip-path="url(#mc)">
+    <line x1="505" y1="130" x2="645" y2="130" class="m1" stroke-width="4"/>
+    <line x1="505" y1="138" x2="645" y2="138" class="m2" stroke-width="4"/>
+    <line x1="505" y1="146" x2="645" y2="146" class="m3" stroke-width="4"/>
+    <line x1="505" y1="154" x2="645" y2="154" class="m4" stroke-width="4"/>
+    <line x1="505" y1="162" x2="645" y2="162" class="m5" stroke-width="4"/>
+    <line x1="505" y1="170" x2="645" y2="170" class="m1" stroke-width="4"/>
+    <line x1="505" y1="178" x2="645" y2="178" class="m2" stroke-width="4"/>
+    <line x1="505" y1="186" x2="645" y2="186" class="m3" stroke-width="4"/>
+    <line x1="505" y1="194" x2="645" y2="194" class="m4" stroke-width="4"/>
+    <line x1="505" y1="202" x2="645" y2="202" class="m5" stroke-width="4"/>
+    <line x1="505" y1="210" x2="645" y2="210" class="m1" stroke-width="4"/>
+    <line x1="505" y1="218" x2="645" y2="218" class="m2" stroke-width="4"/>
+    <line x1="505" y1="226" x2="645" y2="226" class="m3" stroke-width="4"/>
+    <line x1="505" y1="234" x2="645" y2="234" class="m4" stroke-width="4"/>
+    <line x1="505" y1="242" x2="645" y2="242" class="m5" stroke-width="4"/>
+    <line x1="505" y1="250" x2="645" y2="250" class="m1" stroke-width="4"/>
+  </g>
+  <circle cx="575" cy="190" r="67" class="mcirc" stroke-width="1.5"/>
+
+  <!-- footer -->
+  <line x1="24" y1="360" x2="676" y2="360" stroke="#004D40" stroke-width="0.5" stroke-dasharray="4,6"/>
+  <text x="34" y="393" font-family="'Courier New', Courier, monospace" font-size="14" fill="#B2DFDB">hi! i'm <tspan fill="#80CBC4">afia.</tspan> i like to learn and make new things.</text>
+  <text x="34" y="420" font-family="'Courier New', Courier, monospace" font-size="14" fill="#80CBC4">check out my projects ^^</text>
+  <rect x="246" y="406" width="2" height="16" fill="#80CBC4">
+    <animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+
+</svg>
