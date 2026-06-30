@@ -5,3 +5,4 @@ I'm interested in a bunch of things including hardware, AI, 3D modeling, laser c
  
 Find me at [afiaava.com](https://www.afiaava.com)
 
+![terminal](terminal.svg)
