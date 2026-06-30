@@ -50,9 +50,9 @@
 
   <rect width="700" height="450" rx="16" fill="url(#grad)"/>
   <rect x="16" y="16" width="668" height="418" rx="10" fill="#0C0814"/>
-  <circle cx="40" cy="40" r="6" fill="#FF5F57"/>
-  <circle cx="58" cy="40" r="6" fill="#FEBC2E"/>
-  <circle cx="76" cy="40" r="6" fill="#28C840"/>
+  <text x="28" y="46" font-family="'Courier New', Courier, monospace" font-size="14" fill="#D8CDE2">$</text>
+  <text x="46" y="46" font-family="'Courier New', Courier, monospace" font-size="14" fill="#B8A8C2">~</text>
+  <text x="64" y="46" font-family="'Courier New', Courier, monospace" font-size="14" fill="#8E7498">#</text>
   <text x="350" y="46" font-family="'Courier New', Courier, monospace" font-size="13" fill="#8E7498" text-anchor="middle">@afia-ava</text>
   <line x1="16" y1="58" x2="684" y2="58" stroke="#3A2850" stroke-width="1"/>
 
